@@ -1,0 +1,23 @@
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.95rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.schedule-item span {
+  color: #c7cad8;
+}
+
+.schedule-item strong {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .schedule-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
